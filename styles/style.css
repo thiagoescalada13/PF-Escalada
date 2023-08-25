@@ -2281,7 +2281,7 @@ height: 100vh;
 
     .mainindex {
         display: block;
-        height: 110vh;
+        height: 100vh;
     }
 
     .contentindex {
@@ -2436,6 +2436,11 @@ width: 100%;
 border: 2px solid rgb(0, 0, 0);
 }
 
+.contentindex {
+    height: 593vh;
+    background-color: black;
+}
+
 .contentindex .categorias1-inproduct .categorias2 {
 
     display: flex;
@@ -2558,7 +2563,7 @@ height: 150vh;
 
 .productostees .columna2 {
     display: flex;
-    height: 305vh;
+    height: 255vh;
   
     width: 100vw;
     background-color: #000000;
@@ -2589,7 +2594,7 @@ width: 80%;
 }
 
 .teesmain {
-    height: 90vh;
+    height: 70vh;
     background-image: none;
     background-color: #000000;
 }
@@ -2611,7 +2616,7 @@ width: 80%;
     width: 100%;
     margin: 0;
   position: relative;
-top: 535vh;
+top: 500vh;
   clear: both;
     height: 20vh;
     align-items: center;
@@ -2627,10 +2632,11 @@ justify-content: center;
 
 .pagination {
     width: 100%;
-   padding-right: 39vw;
+    padding-right: 39vw;
+    padding-top: 20px;
     justify-content: center;
     position: relative;
-    top: 258.5vh;
+    top: 218.5vh;
 }
 
     /* ABOUT US */
