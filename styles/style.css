@@ -249,24 +249,6 @@ gap: 4px;
     color: #9e68a1;
 }
 
-/*main*/
-/*
-main {
-    display: flex;
-    flex-direction: row;
-}
-*/
-
-/*no
-.categorias {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(57, 76, 184);
-    height: 400px;
-    width: 210px;
-}
-*/
-
 .contentindex {
     display: flex;
 }
@@ -437,7 +419,6 @@ border-radius: 10px;
     display: flex;
     background-color: rgb(0, 0, 0);
     width: 70vw;
-    height: 43vw;
     padding: 0px;
 flex-direction: column;
 }
@@ -578,18 +559,6 @@ font-size: 16px;
 
 aside .fotopromo {
     background-color: #000000;
-  
-    /*
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background-color: #000000;
-    background-image: url(https://64.media.tumblr.com/1e37cec624d5ca946777ac87ad398838/85e4d7a6c6647159-19/s500x750/1ad5153b3a80676c6e8e72578596f704e5cd3cdd.gifv);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    */
 }
 
 .carousel-inner {
@@ -654,10 +623,9 @@ height: 70px;
 
 footer {
     border: 2px solid black;
+    position: absolute;
+    top: 126vh;
     width: 100%;
-  position: relative;
-  margin-top: -0px;
-  clear: both;
     height: 130px;
     align-items: center;
 justify-content: center;
@@ -1553,7 +1521,7 @@ gap: 20px;
 
 .teesfooter {
     position: relative;
-  margin-top: 120px;
+top: 18vh;
   clear: both;
     height: 100px;
 }
@@ -2267,7 +2235,7 @@ height: 100vh;
 
 
     footer {
-        top: 170px;
+        top: 140vh;
     }
 
 }
@@ -2406,7 +2374,7 @@ aside {
 
 
 .footermain {
-    top:60vh;
+    top:238vh;
 width: 100%;
 }
 
