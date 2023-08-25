@@ -1412,8 +1412,8 @@ border-radius: 10px;
     background-image: url(https://th.bing.com/th/id/R.0d1d4f5808228a55684782759778569f?rik=tjJHglhzjiN7pg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-LgO3ebQNhAw%2fTmV5HqKwfTI%2fAAAAAAAAFOI%2f81hMSadfpfg%2fs1600%2femo%2bbackground%2bwallpaper%2b3.jpg&ehk=pCmATT7F%2fJxKamgvkIbgZIwGC1eUAOnwgJdQp45KHBw%3d&risl=&pid=ImgRaw&r=0);
     background-size: cover;
     background-position: 30px;
-width: 83.5%;
-height: 3.5vw;
+height: 5vh;
+width: 100%;
 }
 
 
@@ -1426,7 +1426,12 @@ height: 3.5vw;
 .teesmain .blinkiesproduct {
     display: flex;
     border: 2px solid rgb(0, 0, 0);
+ 
     height: 60%;
+}
+
+.teesmain .blinkiesproduct img {
+    width: 100%;
 }
 
 .teesmain .searchtees .inputproduct {
@@ -1459,18 +1464,24 @@ height: 3.5vw;
     padding: 20px;
     flex-wrap:wrap;
     padding-left: 10px;
-    gap: 30px;
-width: 100%;
-height: 40vw;
+    width: 83.84vw;
+gap: 20px;
+}
+
+.productostees .columna1row {
+  
+    width: 100%;
+    height: 38vh;
 }
 
 .productostees .columna1 {
+    margin-top: 20px;
     display: flex;
-    width: 100%;
-    gap: 40px;
+    gap: 30px;
 }
 
 .productostees .columna1 .productbuy{ 
+  
     width: 180px;
     height: 270px;
     background-color: #000000;
@@ -1482,14 +1493,18 @@ height: 40vw;
     color:rgb(82, 123, 139) ;
 }
 
+.productostees .columna2row {
+    width: 100%;
+}
+
 .productostees .columna2 .productbuy a {
     color:rgb(82, 123, 139) ;
 }
 
 .productostees .columna1 .productbuy img{
     border: 2px solid rgb(161, 51, 51);
-    height: 90%;
-   width: 15vw;
+    height: 30vh;
+   width: 100%;
 }
 
 .productostees .columna1 .productbuy p {
@@ -1504,10 +1519,11 @@ height: 40vw;
 .productostees .columna2 {
     height: 50%;
     display: flex;
-    gap: 40px;
+    gap: 30px;
 }
 
 .productostees .columna2 .productbuy{ 
+    
     color:rgb(82, 123, 139) ;
     width: 180px;
     height: 270px;
@@ -1516,8 +1532,8 @@ height: 40vw;
 
 .productostees .columna2 .productbuy img{
     border: 2px solid rgb(161, 51, 51);
-    height: 90%;
-   width: 15vw;
+    height: 30vh;
+    width: 100%;
 }
 
 .productostees .columna2 .productbuy p {
@@ -1529,6 +1545,12 @@ height: 40vw;
     color: rgb(110, 17, 17);
 }
 
+.productostees .columna3row {
+    padding-top: 0;
+    width: 100%;
+    height: 12vh;
+}
+
 .teesfooter {
     position: relative;
   margin-top: 120px;
@@ -1538,8 +1560,7 @@ height: 40vw;
 
 .pagination {
     padding-right: 20px;
-    padding-top: 80px;
-    padding-bottom: 100px;
+    padding-top: 15px;  
     background-color: #000000;
 }
 
@@ -2053,10 +2074,19 @@ align-items: center;
    
     }
 
+    .productostees .columna1row {
+        height: 50vh;
+    }
+
+    .productostees .columna1row {
+        height: 50vh;
+    }
+
     .productostees {
        padding: 20px;
         padding-left: 20px;
         gap: 0;
+        width: 100vw;
 height: 100vh;
     }
 
@@ -2083,7 +2113,7 @@ height: 100vh;
     }
 
     .teesfooter {
-        top: 50vh;
+        top: 45vh;
     }
 
     .nextpage {
@@ -2094,9 +2124,15 @@ height: 100vh;
 
     .pagination {
         padding-top: 0;
-        padding-bottom: 40px;
+        margin-top: 18.5px;
+        padding-bottom: 50px;
         background-color: #000000;
     }
+
+    .columna3row .paginationrow{
+        padding: 0;
+    }
+
 
     .active>.page-link, .page-link.active {
         z-index: 3;
@@ -2480,8 +2516,8 @@ padding: 10px;
 .productostees {
     background-color: #000000;
 width: 100vw;
-height:360vh;
-margin-top: 45px;
+height:420vh;
+
 }
 
 .productostees .columna1 {
@@ -2496,47 +2532,61 @@ gap: 20px;
     flex-direction: column;
 }
 
-.productostees .columna1 .productbuy{ 
+.productostees .columna1row {
+height: 150vh;
+} 
+
+.productostees .columna1 .productbuy {
     text-align: center;
-    font-size: 23px;
+    font-size: 20px;
     border: 2px solid red;
+    width: 74%;
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 45vh;
+    height: 58vh;
     background-color: #000000;
     color: rgb(82, 123, 139);
 }
 
+.productostees .columna1 .productbuy img {
+    height: 45vh;
+    padding: 10px;
+}
+
 .productostees .columna2 {
     display: flex;
-    height: 60%;
-    padding: 0;
-    margin: 0;
+    height: 305vh;
+  
     width: 100vw;
     background-color: #000000;
     align-items: center;
     flex-direction: column;
 }
 
+.productostees .columna2row {
+    height: 10px;
+}
+
 .productostees .columna2 .productbuy{ 
     text-align: center;
-    font-size: 23px;
+    font-size: 20px;
     border: 2px solid red;
-    width: 300px;
+width: 80%;
     display: flex;
     flex-direction: column;
-    height: 45vh;
+    height: 58vh;
     background-color: #000000;
     color: rgb(82, 123, 139);
 }
 
 .productostees .columna2 .productbuy img{
-    width: 100%;
+    padding: 10px;
+   height: 45vh;
+   width: 100%;
 }
 
 .teesmain {
-    height: 445vh;
+    height: 90vh;
     background-image: none;
     background-color: #000000;
 }
@@ -2556,10 +2606,11 @@ gap: 20px;
 .teesfooter {
     border: 2px solid black;
     width: 100%;
+    margin: 0;
   position: relative;
-top: 290vh;
+top: 500vh;
   clear: both;
-    height: 15vh;
+    height: 20vh;
     align-items: center;
 justify-content: center;
     background-color: rgb(0, 0, 0);
@@ -2567,10 +2618,16 @@ justify-content: center;
     
 }
 
+.footer .redes img  {
+    width: 100%;
+}
+
 .pagination {
-  right: 140px;
+    width: 100%;
+   padding-right: 39vw;
+    justify-content: center;
     position: relative;
-    top: 63vh;
+    top: 258.5vh;
 }
 
     /* ABOUT US */
@@ -2593,7 +2650,7 @@ width: 160px;
 height: 140px;
 }
 .headermain .headersection img {
-width: 200px;
+width: 100%;
 }
 .headermain {
     height: auto;
