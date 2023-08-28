@@ -2541,7 +2541,7 @@ gap: 20px;
 }
 
 .productostees .columna1row {
-height: 150vh;
+height: 120vh;
 } 
 
 .productostees .columna1 .productbuy {
@@ -2563,7 +2563,7 @@ height: 150vh;
 
 .productostees .columna2 {
     display: flex;
-    height: 255vh;
+    height: 285vh;
   
     width: 100vw;
     background-color: #000000;
@@ -2589,7 +2589,7 @@ width: 80%;
 
 .productostees .columna2 .productbuy img{
     padding: 10px;
-   height: 45vh;
+   height: 43vh;
    width: 100%;
 }
 
@@ -2616,7 +2616,7 @@ width: 80%;
     width: 100%;
     margin: 0;
   position: relative;
-top: 500vh;
+top: 502vh;
   clear: both;
     height: 20vh;
     align-items: center;
@@ -2636,7 +2636,7 @@ justify-content: center;
     padding-top: 20px;
     justify-content: center;
     position: relative;
-    top: 218.5vh;
+    top: 227.5vh;
 }
 
     /* ABOUT US */
