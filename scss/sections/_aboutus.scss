@@ -1,0 +1,40 @@
+.aboutfooter {
+    border: 2px solid black;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    clear: both;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    border-top: 2px solid white;
+}
+
+.footerabout .enlaces {
+    height: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+      a {
+        display: flex;
+        margin-right: 3px;
+        font-family: "mono";
+        background-color: rgb(255, 0, 0);
+        border: 2px solid black;
+        text-decoration: none;
+        color: white;
+        align-items: center;
+    }
+     .redes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 70px;
+         img {
+            height: 25px;
+        }
+    }
+}
