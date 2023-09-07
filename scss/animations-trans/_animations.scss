@@ -1,0 +1,128 @@
+@keyframes active {
+    0% {
+        color: red;
+        transform: scale();
+    }
+
+    50% {
+        color: rgb(0, 0, 0);
+        background-color: rgb(117, 2, 2);
+    }
+
+    100% {
+        color: red;
+        transform: scale();
+    }
+}
+
+@keyframes wave {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes gatito {
+    0% {
+        left: 1000px;
+    }
+
+    100% {
+        right: 1000px;
+        left: 0px;
+    }
+}
+
+@keyframes fadeimg {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes contactus {
+    0% {
+        color: #ffffff;
+    }
+
+    25% {
+        color: rgb(0, 0, 0);
+    }
+
+    50% {
+        color: rgb(255, 0, 0);
+    }
+
+    75% {
+        color: black;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        color: red;
+    }
+
+    20% {
+        color: blue;
+    }
+
+    40% {
+        color: green;
+    }
+
+    60% {
+        color: violet;
+    }
+
+    80% {
+        color: yellow;
+    }
+
+    100% {
+        color: deeppink;
+    }
+}
+
+@keyframes escribiendo {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes fadein {
+    from {
+        width: 0;
+    }
+
+    0% {
+        opacity: 0%;
+    }
+
+    50% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
