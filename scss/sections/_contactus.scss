@@ -22,13 +22,12 @@
     }
 }
 
-
 .supporttext {
     .supporttext__question {
         background-color: #375781;
         background-image: url(https://sadhost.neocities.org/images/tiles/greengrid.jpg);
         border: 2px solid rgb(0, 0, 0);
-        .supporttext__question img {
+         img {
             width: 100%;
             display: block;
             padding-top: 20px;
@@ -37,7 +36,7 @@
             animation-delay: fadeimg 10s;
         }
     }
-    .supporttext .supporttext__effecttyping {
+     .supporttext__effecttyping {
         width: 100%;
         white-space: nowrap;
         position: relative;
@@ -49,7 +48,7 @@
         animation: escribiendo 3s steps(40);
     
     }
-    .supporttext .supporttext2 {
+    .supporttext2 {
         width: 100%;
         white-space: nowrap;
         position: relative;
@@ -60,42 +59,42 @@
         overflow: hidden;
         animation: fadein 5s steps(30);
     }
-    .supporttext .supporttext__contact {
+     .supporttext__contact {
         background-image: url(https://sadhost.neocities.org/images/tiles/brilloverde.gif);
         background-size: 10%;
         background-position: 50% 44%;
         border: 2px solid black;
-        .supporttext .supporttext__contact h2 {
+        h2 {
             animation: rainbow 5s infinite;
         }
-        .supporttext .supporttext__contact h3 {
+         h3 {
             font-weight: bold;
             color: red;
             font-family: "evanescence";
         }
-        .supporttext .supporttext__contact img {
+         img {
             width: 50px;
         }
-        .supporttext .supporttext__contact p {
+         p {
             font-size: 30px;
             animation: rainbow 5s infinite;
             animation-direction: alternate;
         }
-        .supporttext__contact .contactform {
+         .contactform {
             background-color: #000000;
             border: 2px solid green;
             padding: 20px;
             width: 100%;
-            .supporttext__contact .contactform button {
+            button {
                 width: 100%;
             }
-            .supporttext__contact .contactform button:active {
+            button:active {
                 background-color: #ff0000;
                 color: rgb(0, 0, 0);
             }
         }
     }
-    .supporttext .supporttext__box {
+    .supporttext__box {
         height: 60vh;
         display: flex;
         justify-content: center;
@@ -116,7 +115,7 @@
 
 .contactustext {
     background-color: #000000;
-    .contactustext h2 {
+   h2 {
         padding: 15px 20px;
         font-family: "dreamscar";
         font-size: 50px;
@@ -130,7 +129,7 @@
     height: 40vh;
     padding: 10px;
     background-image: url(https://sadhost.neocities.org/images/tiles/multi086.jpg);
-    .contactusjob .col {
+     .col {
         background-color: #000000;
         justify-content: space-between;
         display: flex;
@@ -138,17 +137,17 @@
         height: 30vh;
         padding: 20px;
     }
-    .contactusjob .contactlinks {
+    .contactlinks {
         width: 30vw;
         background-color: #000000;
     
     }
-    .contactusjob a {
+     a {
         display: inline-block;
         font-size: 23px;
         color: #031786;
     }
-    .contactusjob .apply {
+     .apply {
         font-size: 15px;
         margin-left: 10px;
         color: white;
@@ -159,7 +158,8 @@
 
 
 
-.contactform .form-label {
+.contactform{
+    .form-label {
     font-family: "5x5";
     background-image: url(https://sadhost.neocities.org/images/tiles/nurple-static-bright.gif);
     width: 100%;
@@ -167,15 +167,16 @@
     border: 2px solid rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
-
-.contactform .form-control {
+.form-control {
     border-radius: 0;
     width: 100%;
 }
-
-.contactform .form-control:focus {
+ .form-control:focus {
     background-color: #afadad;
 }
+}
+
+
 
 .footercontact .redes {
     display: flex;
@@ -183,30 +184,30 @@
     justify-content: center;
     width: 100%;
     height: 70px;
+    .footercontact .redes img {
+        height: 25px;
+    }
+     .enlaces {
+        height: 20px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+         a {
+            display: flex;
+            margin-right: 3px;
+            font-family: "mono";
+            background-color: rgb(255, 0, 0);
+            border: 2px solid black;
+            text-decoration: none;
+            color: white;
+            align-items: center;
+        }
+    }
 }
 
-.footercontact .redes img {
-    height: 25px;
-}
 
-.footercontact .enlaces {
-    height: 20px;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
 
-.footercontact .enlaces a {
-    display: flex;
-    margin-right: 3px;
-    font-family: "mono";
-    background-color: rgb(255, 0, 0);
-    border: 2px solid black;
-    text-decoration: none;
-    color: white;
-    align-items: center;
-}
 
 .contactfooter {
     border: 2px solid black;
@@ -221,3 +222,4 @@
     border-top: 2px solid white;
 }
 
+@import '../animations-trans/animations';

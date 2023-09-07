@@ -1,3 +1,310 @@
+.aboutmain {
+    background-color: #000000;
+    height: 1150px;
+}
+.grid-about {
+   display: grid;
+   grid-template-columns: 300px 750px 1fr;
+   grid-template-rows: 40px 710px;
+   grid-template-areas:
+   "uno dos dos"
+   "tres cuatro cinco"
+   "tres cuatro cinco"
+   ;
+}
+
+
+.uno {
+    grid-area: uno;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.uno p {
+    font-size: 20px;
+}
+
+.dos {
+    grid-area: dos;
+    border: px solid gray;
+}
+
+.tres {
+    border: px solid gray;
+    grid-area: tres;
+    display: flex;
+    justify-content: center;
+}
+
+.tres img {
+    border: 1px solid black;
+    margin-top: 30px;
+    width: 100%;
+    height: 240px;
+}
+
+.cuatro {
+    border: px solid rgb(78, 76, 76);
+    grid-area: cuatro;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+ gap: 20px;
+}
+
+.cuatro .parrafo {
+    padding: 20px;
+    background-color: #054e21;
+    background-image: url(https://cdn.wallpapersafari.com/74/67/G0vIpR.gif);
+    border: 2px solid rgb(0, 241, 20);
+    display: flex;
+    flex-direction: column;
+  width: 100%;
+}
+
+.cuatro .parrafo img {
+    background-color: #000000;
+    width: 30%;
+    height: 40%;
+}
+
+.cuatro .parrafo .onlineshop {
+    width: 10px;
+    height: 10px;
+}
+
+.cuatro .parrafo p {
+    padding: 5px;
+    border: 2px solid green;
+    font-family: "evanescence";
+    color: rgb(3, 110, 3);
+    background-color: #000000;
+    height: 100%;
+    font-size: 18px;
+}
+
+.cuatro .parrafo a {
+    font-size: 15px;
+    color: red;
+}
+
+.cuatro .parrafo2 {
+    padding: 20px;
+    background-color: #054e21;
+    background-image: url(https://64.media.tumblr.com/d17f1527c0a24903babc3159a1bc8734/e28d1d3a7b1d9f23-c5/s640x960/09e9cd0ed3094ed485171b8f7f75877ccc6ccf03.jpg);
+    border: 2px solid rgb(116, 9, 110);
+    display: flex;
+    flex-direction: column;
+  width: 100%;
+}
+
+.cuatro .parrafo2 img {
+    background-color: #000000;
+    width: 30%;
+    height: 40%;
+}
+
+.cuatro .parrafo2 .partnersbtn {
+    background-color: none;
+    width: 15%;
+    height: 40px;
+}
+
+.cuatro .parrafo2 p {
+    padding: 5px;
+    border: 2px solid rgb(143, 25, 143);
+    font-family: "evanescence";
+    color: rgb(218, 124, 226);
+    background-color: #000000;
+    height: 100%;
+    font-size: 18px;
+}
+
+.cuatro .parrafo2 {
+    display: flex;
+    flex-direction: column;
+  width: 100%;
+}
+
+.cuatro .parrafo2 img {
+    width: 30%;
+    height: 20%;
+}
+
+.cuatro .parrafo2 p {
+    height: 100%;
+    font-size: 18px;
+}
+
+.cuatro .parrafo2 h2 {
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+}
+
+.cuatro .parrafo3 {
+    padding: 20px;
+    background-color: #054e21;
+    background-image: url(https://64.media.tumblr.com/a4d593365dfa550fa674beae91cc2355/206d3373b0f9b918-62/s1280x1920/b411745b6baea8666b1c995b47ca19a79b5d12b6.jpg);
+    background-size: cover;
+    border: 2px solid rgb(173, 5, 5);
+    display: flex;
+    flex-direction: column;
+  width: 100%;
+}
+
+.cuatro .parrafo3 img {
+    border: 2px solid black;
+    width: 30%;
+    height: 20%;
+}
+
+
+
+.cuatro .parrafo3 p {
+    padding: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: "evanescence";
+    color: rgb(156, 11, 11);
+    background-color: #000000;
+    height: 100%;
+    font-size: 18px;
+}
+
+.cuatro .parrafo3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  width: 100%;
+}
+
+.cuatro .parrafo3 img {
+    width: 30%;
+    height: 40%;
+}
+
+.cuatro .parrafo3 .parrafo3s {
+    height: 40vh;
+  padding-bottom: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    flex-direction: column;
+}
+
+.cuatro .parrafo3 .onlineshop {
+    border: none;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+}
+
+.cuatro .parrafo3 p {
+    height: 100%;
+    font-size: 18px;
+}
+
+.cuatro .parrafo3 .pseparador {
+    background-color: none;
+    height: 50px;
+    width: 100%;
+}
+.cuatro .parrafo3 .gifprueba {
+    background-color: rgb(0, 0, 0);
+border: 2px solid white;
+padding: 10px;
+    width: 30%;
+    height: 70%;
+}
+
+.cuatro .parrafo3 h2 {
+    font-family: "alagard";
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+}
+
+.cinco {
+    background-color: #000000;
+    grid-area: cinco;
+    display: flex;
+    flex-direction: column;
+}
+
+.cinco img {
+    width: 100%;
+    background-color: #000000;
+}
+
+.cinco .imgcinco {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+width: 100%;
+align-items: center;
+
+}
+
+.cinco .imgcinco img {
+    background-color: #e60000;
+    background-image: url(https://64.media.tumblr.com/96a8f9f1c2b20a306a883985507b252f/cb047bebcd481cd5-b1/s100x200/ce28992d5dd85244c1bbd6b9d847539ff3473df9.gifv);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    margin-top: 1px;
+    width: 90%;
+}
+
+.cinco .mapa {
+    background-color: #000000;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+    justify-content: center;
+}
+
+.cinco .bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.cinco .bottom img {
+    width: 30px;
+}
+
+.cinco p {
+    font-family: "evanescence";
+    border: 2px solid rgb(0, 0, 0);
+    color: red;
+    font-size: 20px;
+    }
+
+.cinco iframe {
+   background-color: #000000;
+   padding: 5px;
+   border: 2px solid rgb(255, 0, 0);
+    width: 80%;
+    height: 160px;
+    
+}
+
+.seis {
+    grid-area: seis;
+}
+
+.siete {
+    grid-area: siete;
+}
+
+.ocho {
+    grid-area: ocho;
+}
+
 .aboutfooter {
     border: 2px solid black;
     width: 100%;

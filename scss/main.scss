@@ -6,39 +6,13 @@
 @import '../scss/sections/aboutus';
 @import '../scss/sections/contactus';
 @import'../scss/sections/products';
+@import '../scss/sections/wishlist';
 @import '../scss/fonts';
 
 
 /*wishlist*/
 
-.yw  {
-    width: 100%;
-    font-size: 20px;
-    border-bottom:1px solid black ;
-}
 
-
-.mainwishlist {
-    display: block;
-}
-
-.orderby {
-    margin-top: 10px;
-margin-left: 20px;
-}
-
-.orderby p {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.list {
-    margin: 10px 10px 10px 10px;
-    width: 98.5%;
-    height: 460px;
-    background-color: black;
-    
-}
 
 /*cart*/
 
