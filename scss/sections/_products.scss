@@ -105,13 +105,14 @@
         background-size: cover;
         display: flex;
         width: 100%;
-        height: 14vh;
+        height: 28vh;
         justify-content: center;
         background-color: #2a5355;
         border: 2px solid black;
+
         img {
-            height: 100%;
-            width: 50%;
+            height: 80%;
+            
         }
     }
 }
@@ -181,7 +182,7 @@
     flex-wrap: wrap;
     padding-left: 10px;
     width: 83.84vw;
-    gap: 20px;
+    gap: 50px;
 
     .columna1row {
         width: 100%;
@@ -206,7 +207,7 @@
 
             img {
                 border: 2px solid rgb(161, 51, 51);
-                height: 30vh;
+                height: 33vh;
                 width: 100%;
             }
 
@@ -226,38 +227,38 @@
         width: 100%;
     }
 
-    
-        .columna2 {
-            height: 50%;
-            display: flex;
-            gap: 30px;
-        }
 
-        .productbuy {
+    .columna2 {
+        height: 50%;
+        display: flex;
+        gap: 30px;
+    }
+
+    .productbuy {
+        color: rgb(82, 123, 139);
+        width: 190px;
+        height: 270px;
+        background-color: #000000;
+
+        a {
             color: rgb(82, 123, 139);
-            width: 190px;
-            height: 270px;
-            background-color: #000000;
-
-            a {
-                color: rgb(82, 123, 139);
-            }
-
-            img {
-                border: 2px solid rgb(161, 51, 51);
-                height: 30vh;
-                width: 100%;
-            }
-
-            p {
-                text-decoration: underline;
-            }
-
-            .preciotee {
-                text-decoration: none;
-                color: rgb(110, 17, 17);
-            }
         }
+
+        img {
+            border: 2px solid rgb(161, 51, 51);
+            height: 33vh;
+            width: 100%;
+        }
+
+        p {
+            text-decoration: underline;
+        }
+
+        .preciotee {
+            text-decoration: none;
+            color: rgb(110, 17, 17);
+        }
+    }
 }
 
 
@@ -284,7 +285,7 @@
 
 .teesfooter {
     position: relative;
-    top: 18vh;
+    top: 0;
     clear: both;
     height: 100px;
 }
@@ -295,7 +296,8 @@
     background-color: #000000;
 }
 
-.active>.page-link, .page-link.active {
+.active>.page-link,
+.page-link.active {
     z-index: 3;
     color: var(--bs-pagination-active-color);
     background-color: rgb(0, 0, 0);
