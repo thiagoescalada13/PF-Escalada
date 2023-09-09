@@ -2,8 +2,11 @@
     background-image: url(https://64.media.tumblr.com/54c78dff3e1600c49b112ee3e04bf768/tumblr_phlpe350en1v0jfsto5_1280.jpg);
     background-size: cover;
     background-color: rgb(0, 0, 0);
-    height: 767px;
+    height: 130vh;
     border-top: 1px solid white;
+    .row {
+        margin-right: 0;
+    }
 }
 
 .supporth2 {
@@ -213,7 +216,6 @@
     border: 2px solid black;
     width: 100%;
     position: relative;
-    top: 10vh;
     clear: both;
     height: 130px;
     align-items: center;

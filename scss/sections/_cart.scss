@@ -1,5 +1,7 @@
+@import '../vars/colors';
+
 .maincart {
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(0, 0, 0);
 }
 
 .cart {
@@ -15,7 +17,7 @@
     padding: 10px;
     margin-top: 10px;
     height: 10rem;
-    background-color: rgb(105, 15, 15);
+    background-color: $produtCartBox;
     box-shadow: 0 0 15px rgba(0, 0, 0, 1) inset, 1px 1px 0 0 rgba(0, 0, 0, 0.2);
 
     .cart_product-img {
@@ -91,11 +93,19 @@
 
         .cart_payment-button {
             button {
-                background-color: rgb(41, 63, 92);
+                background-color: rgb(0, 0, 0);
                 border-radius: 3px;
-                color: white;
+                color: rgb(148, 7, 7);
                 border: 2px solid rgb(0, 0, 0);
                 width: 9rem;
+            }
+            button:hover {
+                background-color: white;
+                color: black;
+            }
+            button:active {
+background-color: rgb(209, 10, 10);
+color: black;
             }
         }
     }
@@ -134,7 +144,6 @@
             box-shadow: 1px 3px 20px rgb(209, 24, 24);
             animation: breath 3s infinite;
             height: 70vh;
-
             .carousel-item {
                 height: 100%;
 
@@ -226,20 +235,6 @@
 
 }
 
-@keyframes breath {
-    0% {
-        box-shadow: 1px 3px 20px rgb(209, 24, 24);
-    }
-
-    50% {
-        box-shadow: 1px 3px 20px rgb(0, 0, 0);
-    }
-
-    100% {
-        box-shadow: 1px 3px 20px rgb(209, 24, 24);
-    }
-}
-
 @media (max-width: 981px) {
     .maincart {
         flex-direction: column;
@@ -305,14 +300,19 @@
 
 @media (max-width: 459px) {
     .cart_product {
-        flex-direction: column;
+        
         height: auto;
         .cart_product-img {
             margin: auto;
+            img {
+                width: 40vw;
+               
+            }
         }
         .cart_product-info {
-            text-align: center;
+           
             width: 100%;
         }
     }
 }
+@import '../animations-trans/animations';

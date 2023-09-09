@@ -126,3 +126,17 @@
         opacity: 100%;
     }
 }
+
+@keyframes breath {
+    0% {
+        box-shadow: 1px 3px 20px rgb(209, 24, 24);
+    }
+
+    50% {
+        box-shadow: 1px 3px 20px rgb(0, 0, 0);
+    }
+
+    100% {
+        box-shadow: 1px 3px 20px rgb(209, 24, 24);
+    }
+}

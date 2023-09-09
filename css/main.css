@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Source+Sans+3:ital,wght@0,200;0,800;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Source+Sans+3:ital,wght@0,200;0,800;1,300;1,400;1,500&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -549,6 +550,17 @@ aside .textpromo img {
     opacity: 100%;
   }
 }
+@keyframes breath {
+  0% {
+    box-shadow: 1px 3px 20px rgb(209, 24, 24);
+  }
+  50% {
+    box-shadow: 1px 3px 20px rgb(0, 0, 0);
+  }
+  100% {
+    box-shadow: 1px 3px 20px rgb(209, 24, 24);
+  }
+}
 .aboutmain {
   background-color: #000000;
   height: 1150px;
@@ -894,8 +906,11 @@ aside .textpromo img {
   background-image: url(https://64.media.tumblr.com/54c78dff3e1600c49b112ee3e04bf768/tumblr_phlpe350en1v0jfsto5_1280.jpg);
   background-size: cover;
   background-color: rgb(0, 0, 0);
-  height: 767px;
+  height: 130vh;
   border-top: 1px solid white;
+}
+.contactmain .row {
+  margin-right: 0;
 }
 
 .supporth2 {
@@ -1086,7 +1101,6 @@ aside .textpromo img {
   border: 2px solid black;
   width: 100%;
   position: relative;
-  top: 10vh;
   clear: both;
   height: 130px;
   align-items: center;
@@ -1196,6 +1210,17 @@ aside .textpromo img {
     opacity: 100%;
   }
 }
+@keyframes breath {
+  0% {
+    box-shadow: 1px 3px 20px rgb(209, 24, 24);
+  }
+  50% {
+    box-shadow: 1px 3px 20px rgb(0, 0, 0);
+  }
+  100% {
+    box-shadow: 1px 3px 20px rgb(209, 24, 24);
+  }
+}
 .nav-link {
   margin-bottom: 0;
 }
@@ -1283,6 +1308,7 @@ aside .textpromo img {
 }
 .categorias1-inproduct .categorias2 .cat1 .cat2active {
   color: red;
+  box-shadow: 1px 1px 10px red;
 }
 .categorias1-inproduct .bajocat {
   background-image: url(https://wallpapercave.com/wp/QvUcnui.jpg);
@@ -1470,8 +1496,188 @@ aside .textpromo img {
   padding-right: 10px;
 }
 
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "halloween";
+  src: url(../fonts/Halloween\ Night.otf);
+}
+@font-face {
+  font-family: "decoder";
+  src: url(../fonts/DECODER_.TTF);
+}
+@font-face {
+  font-family: "ocs";
+  src: url(../fonts/OCS_____.TTF);
+}
+@font-face {
+  font-family: "hanging";
+  src: url(../fonts/Hanged\ Letters.ttf);
+}
+@font-face {
+  font-family: "dreamscar";
+  src: url(../fonts/Dreamscar.ttf);
+}
+@font-face {
+  font-family: "5x5";
+  src: url(../fonts/5×5.ttf);
+}
+@font-face {
+  font-family: "white";
+  src: url(../fonts/White\ On\b lack.ttf);
+}
+@font-face {
+  font-family: "evanescence";
+  src: url(../fonts/evanescent.ttf);
+}
+@font-face {
+  font-family: "punk1";
+  src: url(../fonts/punk\ kid.ttf);
+}
+@font-face {
+  font-family: "chaos";
+  src: url(../fonts/Magnific\ Chaos\ Personal\ Use.ttf);
+}
+@font-face {
+  font-family: "sketch";
+  src: url(../fonts/Sketch\ Gothic\ School.ttf);
+}
+@font-face {
+  font-family: "alagard";
+  src: url(../fonts/alagard.ttf);
+}
+@font-face {
+  font-family: "big";
+  src: url(../fonts/BigShouldersInlineText-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "mono";
+  src: url(../fonts/ShareTechMono-Regular.ttf);
+}
+@font-face {
+  font-family: "rubik";
+  src: url(../fonts/RubikMonoOne-Regular.ttf);
+}
+@font-face {
+  font-family: "vampire";
+  src: url(../fonts/Vampire\ Zone.ttf);
+}
+@keyframes active {
+  0% {
+    color: red;
+    transform: scale();
+  }
+  50% {
+    color: rgb(0, 0, 0);
+    background-color: rgb(117, 2, 2);
+  }
+  100% {
+    color: red;
+    transform: scale();
+  }
+}
+@keyframes wave {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes gatito {
+  0% {
+    left: 1000px;
+  }
+  100% {
+    right: 1000px;
+    left: 0px;
+  }
+}
+@keyframes fadeimg {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes contactus {
+  0% {
+    color: #ffffff;
+  }
+  25% {
+    color: rgb(0, 0, 0);
+  }
+  50% {
+    color: rgb(255, 0, 0);
+  }
+  75% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  20% {
+    color: blue;
+  }
+  40% {
+    color: green;
+  }
+  60% {
+    color: violet;
+  }
+  80% {
+    color: yellow;
+  }
+  100% {
+    color: deeppink;
+  }
+}
+@keyframes escribiendo {
+  from {
+    width: 0;
+  }
+}
+@keyframes fadein {
+  from {
+    width: 0;
+  }
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes breath {
+  0% {
+    box-shadow: 1px 3px 20px rgb(209, 24, 24);
+  }
+  50% {
+    box-shadow: 1px 3px 20px rgb(0, 0, 0);
+  }
+  100% {
+    box-shadow: 1px 3px 20px rgb(209, 24, 24);
+  }
+}
 .mainwishlist {
-  background-color: rgb(8, 8, 8);
+  background-color: rgb(0, 0, 0);
 }
 
 .wishlist__tuwishlist {
@@ -1494,8 +1700,11 @@ aside .textpromo img {
 .wishlist__tuwishlist-col h2 {
   color: rgb(245, 4, 4);
   padding-left: 15px;
+  font-family: "vampire";
 }
 .wishlist__tuwishlist-col img {
+  animation: breath 3s infinite;
+  box-shadow: 1px 1px 10px red;
   border-radius: 10px;
   border: 1px solid rgb(121, 7, 7);
 }
@@ -1527,10 +1736,28 @@ aside .textpromo img {
 }
 .wishlist__tuwishlist-input .wishlist__tuwishlist-col .dropdown {
   padding-left: 10px;
+  font-family: "alagard";
+}
+.wishlist__tuwishlist-input .wishlist__tuwishlist-col .dropdown .dropdown-menu {
+  padding: 0;
+  border: 1px solid black;
+}
+.wishlist__tuwishlist-input .wishlist__tuwishlist-col .dropdown .dropdown-menu .dropdown-item {
+  border-bottom: 1px solid black;
+  color: black;
+  background-color: rgb(104, 5, 5);
+  font-family: "vampire";
+}
+.wishlist__tuwishlist-input .wishlist__tuwishlist-col .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(221, 0, 0);
 }
 .wishlist__tuwishlist-input .wishlist__tuwishlist-col .dropdown button {
   border-radius: 3px;
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(168, 5, 5);
+}
+.wishlist__tuwishlist-input .wishlist__tuwishlist-col .dropdown button:hover {
+  background-color: black;
 }
 .wishlist__tuwishlist-input .wishlist__tuwishlist-col .dropdown input {
   width: 1vw;
@@ -1549,7 +1776,7 @@ aside .textpromo img {
   width: 10vw;
   padding: 20px;
   display: flex;
-  background-color: rgb(114, 25, 30);
+  background-color: rgb(114, 10, 15);
   box-shadow: 0 0 15px rgb(0, 0, 0) inset, 1px 1px 0 0 rgba(0, 0, 0, 0.2);
 }
 .wishlist__tuwishlist-row-product .wishlist__tuwishlist-col-product .wishlist_product {
@@ -1569,9 +1796,15 @@ aside .textpromo img {
   height: 100%;
   color: white;
 }
+.wishlist__tuwishlist-row-product .wishlist__tuwishlist-col-product .wishlist_info h3 {
+  font-family: "vampire";
+  text-shadow: 1px 1px 5px black;
+  font-size: 30px;
+  color: black;
+}
 .wishlist__tuwishlist-row-product .wishlist__tuwishlist-col-product .wishlist_info h4 {
-  color: rgb(228, 223, 223);
-  padding-top: 5px;
+  font-family: "evanscence";
+  color: rgb(241, 238, 238);
   font-size: 16px;
 }
 .wishlist__tuwishlist-row-product .wishlist__tuwishlist-col-product .wishlist_info h5 {
@@ -1584,7 +1817,8 @@ aside .textpromo img {
   padding-top: 5px;
 }
 .wishlist__tuwishlist-row-product .wishlist__tuwishlist-col-product .wishlist_info h6 a {
-  color: rgb(26, 34, 78);
+  font-family: "alagard";
+  color: rgb(21, 36, 122);
   padding-left: 5px;
 }
 .wishlist__tuwishlist-row-product .wishlist__tuwishlist-col-product .wishlist_info img {
@@ -1624,7 +1858,7 @@ aside .textpromo img {
 
 .blank {
   height: 10vh;
-  background-color: rgb(8, 8, 8);
+  background-color: rgb(0, 0, 0);
 }
 
 .footerwishlist {
@@ -1726,7 +1960,7 @@ aside .textpromo img {
     justify-content: center;
   }
   .wishlist__tuwishlist-row-product .wishlist__tuwishlist-col-product .wishlist_product img {
-    width: 50vw;
+    width: 80vw;
     height: 40vh;
   }
   .wishlist__tuwishlist-row-product .wishlist__tuwishlist-col-product .wishlist_info {
@@ -1743,7 +1977,7 @@ aside .textpromo img {
   }
 }
 .maincart {
-  background-color: rgb(12, 12, 12);
+  background-color: rgb(0, 0, 0);
 }
 
 .cart {
@@ -1820,11 +2054,19 @@ aside .textpromo img {
   color: white;
 }
 .cart_product-payment .cart_product .cart_payment-button button {
-  background-color: rgb(41, 63, 92);
+  background-color: rgb(0, 0, 0);
   border-radius: 3px;
-  color: white;
+  color: rgb(148, 7, 7);
   border: 2px solid rgb(0, 0, 0);
   width: 9rem;
+}
+.cart_product-payment .cart_product .cart_payment-button button:hover {
+  background-color: white;
+  color: black;
+}
+.cart_product-payment .cart_product .cart_payment-button button:active {
+  background-color: rgb(209, 10, 10);
+  color: black;
 }
 
 .cart_publicidad {
@@ -1926,17 +2168,6 @@ aside .textpromo img {
   height: 25px;
 }
 
-@keyframes breath {
-  0% {
-    box-shadow: 1px 3px 20px rgb(209, 24, 24);
-  }
-  50% {
-    box-shadow: 1px 3px 20px rgb(0, 0, 0);
-  }
-  100% {
-    box-shadow: 1px 3px 20px rgb(209, 24, 24);
-  }
-}
 @media (max-width: 981px) {
   .maincart {
     flex-direction: column;
@@ -1985,15 +2216,128 @@ aside .textpromo img {
 }
 @media (max-width: 459px) {
   .cart_product {
-    flex-direction: column;
     height: auto;
   }
   .cart_product .cart_product-img {
     margin: auto;
   }
+  .cart_product .cart_product-img img {
+    width: 40vw;
+  }
   .cart_product .cart_product-info {
-    text-align: center;
     width: 100%;
+  }
+}
+@keyframes active {
+  0% {
+    color: red;
+    transform: scale();
+  }
+  50% {
+    color: rgb(0, 0, 0);
+    background-color: rgb(117, 2, 2);
+  }
+  100% {
+    color: red;
+    transform: scale();
+  }
+}
+@keyframes wave {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes gatito {
+  0% {
+    left: 1000px;
+  }
+  100% {
+    right: 1000px;
+    left: 0px;
+  }
+}
+@keyframes fadeimg {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes contactus {
+  0% {
+    color: #ffffff;
+  }
+  25% {
+    color: rgb(0, 0, 0);
+  }
+  50% {
+    color: rgb(255, 0, 0);
+  }
+  75% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  20% {
+    color: blue;
+  }
+  40% {
+    color: green;
+  }
+  60% {
+    color: violet;
+  }
+  80% {
+    color: yellow;
+  }
+  100% {
+    color: deeppink;
+  }
+}
+@keyframes escribiendo {
+  from {
+    width: 0;
+  }
+}
+@keyframes fadein {
+  from {
+    width: 0;
+  }
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes breath {
+  0% {
+    box-shadow: 1px 3px 20px rgb(209, 24, 24);
+  }
+  50% {
+    box-shadow: 1px 3px 20px rgb(0, 0, 0);
+  }
+  100% {
+    box-shadow: 1px 3px 20px rgb(209, 24, 24);
   }
 }
 @font-face {
@@ -2371,6 +2715,9 @@ aside .textpromo img {
 }
 
 @media (max-width: 987px) {
+  .contactmain {
+    height: auto;
+  }
   .supportflex {
     justify-content: center;
   }
@@ -2399,7 +2746,6 @@ aside .textpromo img {
     border: 2px solid black;
     width: 100%;
     position: relative;
-    margin-top: 25vh;
     clear: both;
     height: 130px;
     align-items: center;
@@ -3058,7 +3404,7 @@ aside .textpromo img {
   }
   /*contact*/
   .contactusjob {
-    height: 50vh;
+    height: 40vh;
   }
   .contactlinks a {
     font-size: 18px;

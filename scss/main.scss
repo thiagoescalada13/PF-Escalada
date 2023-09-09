@@ -339,6 +339,10 @@ align-items: center;
 
 @media (max-width: 987px){
 
+.contactmain {
+    height: auto;
+}
+
 .supportflex {
     justify-content: center;
 }
@@ -374,7 +378,6 @@ align-items: center;
         border: 2px solid black;
         width: 100%;
         position: relative;
-        margin-top: 25vh;
         clear: both;
         height: 130px;
         align-items: center;
@@ -1232,7 +1235,7 @@ justify-content: center;
 /*contact*/
 
 .contactusjob {
-    height: 50vh;
+    height: 40vh;
 }
 
 .contactlinks a {
