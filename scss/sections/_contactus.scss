@@ -11,6 +11,8 @@
 
 .supporth2 {
     background-color: #000000;
+    display: flex;
+    align-items: center;
      h2 {
         color: rgb(255, 0, 0);
         font-size: 60px;
@@ -19,7 +21,9 @@
         animation: wave 4s infinite;
     }
     img {
-        width: 70px;
+        height: 5vh;
+        padding-left: 10px;
+        margin-top: 30px;
         animation: gatito 5s;
         position: relative;
     }
