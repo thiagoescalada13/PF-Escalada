@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Source+Sans+3:ital,wght@0,200;0,800;1,300;1,400;1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Source+Sans+3:ital,wght@0,200;0,800;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Source+Sans+3:ital,wght@0,200;0,800;1,300;1,400;1,500&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -1700,6 +1701,7 @@ aside .textpromo img {
 .wishlist__tuwishlist-col h2 {
   color: rgb(245, 4, 4);
   padding-left: 15px;
+  text-shadow: 1px 1px 5px rgb(211, 73, 73);
   font-family: "vampire";
 }
 .wishlist__tuwishlist-col img {
@@ -1803,7 +1805,7 @@ aside .textpromo img {
   color: black;
 }
 .wishlist__tuwishlist-row-product .wishlist__tuwishlist-col-product .wishlist_info h4 {
-  font-family: "evanscence";
+  font-family: "Times New Roman", Times, serif;
   color: rgb(241, 238, 238);
   font-size: 16px;
 }
@@ -1842,6 +1844,7 @@ aside .textpromo img {
   border-radius: 3px;
   height: 50%;
   background-color: rgb(75, 18, 18);
+  box-shadow: 1px 1px 15px black;
 }
 .wishlist__tuwishlist-row-product .wishlist__tuwishlist-col-product .wishlist_price p {
   color: white;
@@ -1854,6 +1857,14 @@ aside .textpromo img {
   width: 95%;
   border-radius: 3px;
   color: red;
+}
+.wishlist__tuwishlist-row-product .wishlist__tuwishlist-col-product .wishlist_price button:hover {
+  background-color: red;
+  color: white;
+}
+.wishlist__tuwishlist-row-product .wishlist__tuwishlist-col-product .wishlist_price button:Active {
+  background-color: white;
+  color: black;
 }
 
 .blank {
@@ -1950,6 +1961,19 @@ aside .textpromo img {
   }
 }
 @media screen and (max-width: 581px) {
+  .wishlist__tuwishlist-input .wishlist__tuwishlist-col {
+    flex-direction: column;
+  }
+  .wishlist__tuwishlist-input .wishlist__tuwishlist-col input {
+    width: 100%;
+  }
+  .wishlist__tuwishlist-input .wishlist__tuwishlist-col .dropdown {
+    margin: 0px 10px;
+    padding: 0;
+  }
+  .wishlist__tuwishlist-input .wishlist__tuwishlist-col .dropdown .btn {
+    width: 100vw;
+  }
   .wishlist__tuwishlist-row-product .wishlist__tuwishlist-col-product {
     flex-direction: column;
     height: 80vh;
@@ -1975,6 +1999,9 @@ aside .textpromo img {
   .wishlist__tuwishlist-row-product .wishlist__tuwishlist-col-product .wishlist_price {
     width: 100%;
   }
+  .footerwishlist .redes {
+    flex-direction: column;
+  }
 }
 .maincart {
   background-color: rgb(0, 0, 0);
@@ -1984,8 +2011,13 @@ aside .textpromo img {
   padding: 0px 6rem;
 }
 .cart .cart_h2 {
-  color: white;
+  color: rgb(252, 0, 0);
   border-bottom: 1px solid rgb(51, 50, 50);
+}
+.cart .cart_h2 h2 {
+  text-shadow: 1px 1px 5px rgb(151, 49, 49);
+  padding-top: 1rem;
+  font-family: "vampire";
 }
 
 .cart_product {
@@ -1994,6 +2026,11 @@ aside .textpromo img {
   height: 10rem;
   background-color: rgb(105, 15, 15);
   box-shadow: 0 0 15px rgb(0, 0, 0) inset, 1px 1px 0 0 rgba(0, 0, 0, 0.2);
+}
+.cart_product .cart_product-img {
+  display: flex;
+  justify-content: center;
+  width: 8rem;
 }
 .cart_product .cart_product-img img {
   height: 20vh;
@@ -2004,15 +2041,21 @@ aside .textpromo img {
   width: 36vw;
   padding: 3px 10px;
 }
+.cart_product .cart_product-info h2 {
+  font-family: "vampire";
+  color: black;
+  text-shadow: 1px 1px 5px black;
+}
 .cart_product .cart_product-info h3 {
+  font-family: "Times New Roman", Times, serif;
   font-size: 15px;
 }
 .cart_product .cart_product-info h4 {
+  font-family: "Times New Roman", Times, serif;
   font-size: 15px;
 }
 .cart_product .cart_product-info p {
-  padding-top: 5px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .cart_product .cart_product-price {
   display: flex;
@@ -2021,15 +2064,16 @@ aside .textpromo img {
   justify-content: center;
 }
 .cart_product .cart_product-price p {
+  width: 6rem;
+  text-align: center;
   background-color: black;
   border: 1px solid red;
   padding: 5px;
   color: white;
   margin: 0;
 }
-.cart_product .cart_product-price a {
-  margin-top: 3px;
-  width: 4rem;
+.cart_product .cart_product-price button {
+  width: 6rem;
   text-align: center;
   color: rgb(0, 0, 0);
   background-color: rgb(255, 1, 1);
@@ -2037,10 +2081,15 @@ aside .textpromo img {
   border-radius: 3px;
   font-size: 14px;
   padding: 0;
+  margin-top: 3px;
 }
-.cart_product .cart_product-price a:hover {
+.cart_product .cart_product-price button:hover {
   background-color: black;
   color: red;
+}
+.cart_product .cart_product-price button:active {
+  background-color: white;
+  color: black;
 }
 
 .cart_product-payment {
@@ -2339,6 +2388,74 @@ aside .textpromo img {
   100% {
     box-shadow: 1px 3px 20px rgb(209, 24, 24);
   }
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "halloween";
+  src: url(../fonts/Halloween\ Night.otf);
+}
+@font-face {
+  font-family: "decoder";
+  src: url(../fonts/DECODER_.TTF);
+}
+@font-face {
+  font-family: "ocs";
+  src: url(../fonts/OCS_____.TTF);
+}
+@font-face {
+  font-family: "hanging";
+  src: url(../fonts/Hanged\ Letters.ttf);
+}
+@font-face {
+  font-family: "dreamscar";
+  src: url(../fonts/Dreamscar.ttf);
+}
+@font-face {
+  font-family: "5x5";
+  src: url(../fonts/5×5.ttf);
+}
+@font-face {
+  font-family: "white";
+  src: url(../fonts/White\ On\b lack.ttf);
+}
+@font-face {
+  font-family: "evanescence";
+  src: url(../fonts/evanescent.ttf);
+}
+@font-face {
+  font-family: "punk1";
+  src: url(../fonts/punk\ kid.ttf);
+}
+@font-face {
+  font-family: "chaos";
+  src: url(../fonts/Magnific\ Chaos\ Personal\ Use.ttf);
+}
+@font-face {
+  font-family: "sketch";
+  src: url(../fonts/Sketch\ Gothic\ School.ttf);
+}
+@font-face {
+  font-family: "alagard";
+  src: url(../fonts/alagard.ttf);
+}
+@font-face {
+  font-family: "big";
+  src: url(../fonts/BigShouldersInlineText-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "mono";
+  src: url(../fonts/ShareTechMono-Regular.ttf);
+}
+@font-face {
+  font-family: "rubik";
+  src: url(../fonts/RubikMonoOne-Regular.ttf);
+}
+@font-face {
+  font-family: "vampire";
+  src: url(../fonts/Vampire\ Zone.ttf);
 }
 @font-face {
   font-family: "Oswald";

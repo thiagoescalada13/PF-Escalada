@@ -1,6 +1,6 @@
 @import '../fonts';
 @import '../vars/colors';
-@import '../animations-trans/animations' ;
+@import '../animations-trans/animations';
 
 .mainwishlist {
     background-color: rgb(0, 0, 0);
@@ -10,6 +10,7 @@
     margin: 0px 15vw;
     padding-top: 30px;
     padding-bottom: 20px;
+
     .wishlist__tuwishlist-col-product {
         padding-top: 0px;
         height: 20vh;
@@ -22,12 +23,14 @@
     display: flex;
     align-items: center;
     padding: 0px;
+
     h2 {
         color: rgb(245, 4, 4);
         padding-left: 15px;
-        
-    font-family: 'vampire';
+        text-shadow: 1px 1px 5px rgb(211, 73, 73);
+        font-family: 'vampire';
     }
+
     img {
         animation: breath 3s infinite;
         box-shadow: 1px 1px 10px red;
@@ -39,16 +42,19 @@
 .wishlist__tuwishlist-input {
     margin: 0px 15vw;
     padding-bottom: 10px;
-border-bottom: 1px solid rgb(82, 81, 81);
+    border-bottom: 1px solid rgb(82, 81, 81);
+
     .wishlist__tuwishlist-col {
         display: flex;
         flex-direction: row;
         padding: 0px;
+
         .orden {
             button {
                 width: 10vw;
             }
         }
+
         input {
             background-color: rgb(75, 21, 21);
             color: rgb(15, 15, 15);
@@ -56,43 +62,51 @@ border-bottom: 1px solid rgb(82, 81, 81);
             border: 1px solid black;
             padding: 5px;
             width: 50vw;
-            box-shadow: 0 0 3px rgba(0,0,0,0.5) inset, 1px 1px 0 0 rgba(255,255,255,0.2);
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset, 1px 1px 0 0 rgba(255, 255, 255, 0.2);
         }
+
         input:focus {
             background-color: white;
         }
+
         .dropdown {
             padding-left: 10px;
             font-family: 'alagard';
+
             .dropdown-menu {
                 padding: 0;
                 border: 1px solid black;
+
                 .dropdown-item {
                     border-bottom: 1px solid black;
                     color: black;
                     background-color: rgb(104, 5, 5);
-                    
-                        font-family: 'vampire';
-                    
+
+                    font-family: 'vampire';
+
                 }
-                .dropdown-item:hover{
+
+                .dropdown-item:hover {
                     background-color: rgb(0, 0, 0);
                     color: rgb(221, 0, 0);
                 }
             }
+
             button {
                 border-radius: 3px;
                 background-color: rgb(168, 5, 5);
             }
-            button:hover{
+
+            button:hover {
                 background-color: black;
             }
+
             input {
                 width: 1vw;
                 padding-left: 0px;
                 margin-right: 5px;
             }
-            
+
         }
     }
 }
@@ -100,6 +114,7 @@ border-bottom: 1px solid rgb(82, 81, 81);
 .wishlist__tuwishlist-row-product {
     margin: 0px 15vw;
     padding-top: 10px;
+
     .wishlist__tuwishlist-col-product {
         align-items: center;
         padding-top: 0px;
@@ -108,62 +123,73 @@ border-bottom: 1px solid rgb(82, 81, 81);
         padding: 20px;
         display: flex;
         background-color: $productBox;
-        box-shadow: 0 0 15px rgba(0,0,0,1) inset, 1px 1px 0 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 1) inset, 1px 1px 0 0 rgba(0, 0, 0, 0.2);
+
         .wishlist_product {
             width: 12vw;
             height: 100%;
+
             img {
                 border: 1px solid rgb(0, 0, 0);
-               width: 100%;
+                width: 100%;
                 height: 100%;
             }
         }
+
         .wishlist_info {
             display: flex;
             flex-direction: column;
-          margin: 0px 15px;
+            margin: 0px 15px;
             width: 35vw;
             height: 100%;
             color: white;
+
             h3 {
                 font-family: 'vampire';
                 text-shadow: 1px 1px 5px black;
                 font-size: 30px;
                 color: black;
             }
+
             h4 {
-                font-family: 'evanscence';
+                font-family: 'Times New Roman', Times, serif;
                 color: rgb(241, 238, 238);
-               
+
                 font-size: 16px;
             }
+
             h5 {
                 color: rgb(228, 223, 223);
                 padding-top: 5px;
                 font-size: 13px;
             }
+
             h6 {
                 color: black;
                 padding-top: 5px;
+
                 a {
                     font-family: 'alagard';
                     color: rgb(21, 36, 122);
                     padding-left: 5px;
                 }
             }
-            img{
+
+            img {
                 width: 30px;
             }
+
             p {
                 margin-top: 10px;
                 text-align: center;
-       width: 5rem;
+                width: 5rem;
                 font-size: 13px;
                 border: 1px solid rgb(190, 188, 188);
                 border-radius: 5px;
                 background-color: rgb(0, 0, 0);
             }
         }
+
         .wishlist_price {
             display: flex;
             align-items: center;
@@ -173,17 +199,30 @@ border-bottom: 1px solid rgb(82, 81, 81);
             border-radius: 3px;
             height: 50%;
             background-color: rgb(75, 18, 18);
+            box-shadow: 1px 1px 15px black;
+
             p {
                 color: white;
                 font-size: 20px;
                 margin: 0;
             }
+
             button {
                 background-color: rgb(0, 0, 0);
                 height: 40px;
                 width: 95%;
                 border-radius: 3px;
                 color: red;
+            }
+
+            button:hover {
+                background-color: red;
+                color: white;
+            }
+
+            button:Active {
+                background-color: white;
+                color: black;
             }
         }
     }
@@ -203,66 +242,73 @@ border-bottom: 1px solid rgb(82, 81, 81);
     justify-content: center;
     background-color: rgb(0, 0, 0);
     border-top: 2px solid white;
-.enlaces {
-    height: 20px;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-     a {
+
+    .enlaces {
+        height: 20px;
         display: flex;
-        margin-right: 3px;
-        font-family: "mono";
-        background-color: rgb(255, 0, 0);
-        border: 2px solid black;
-        text-decoration: none;
-        color: white;
+        width: 100%;
         align-items: center;
+        justify-content: center;
+
+        a {
+            display: flex;
+            margin-right: 3px;
+            font-family: "mono";
+            background-color: rgb(255, 0, 0);
+            border: 2px solid black;
+            text-decoration: none;
+            color: white;
+            align-items: center;
+        }
     }
-}
-.redes {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 70px;
-     img {
-        height: 25px;
+
+    .redes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 70px;
+
+        img {
+            height: 25px;
+        }
     }
-}
 }
 
 
 
 .footer {
 
-.enlaces {
-    height: 20px;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-     a {
+    .enlaces {
+        height: 20px;
         display: flex;
-        margin-right: 3px;
-        font-family: "mono";
-        background-color: rgb(255, 0, 0);
-        border: 2px solid black;
-        text-decoration: none;
-        color: white;
+        width: 100%;
         align-items: center;
+        justify-content: center;
+
+        a {
+            display: flex;
+            margin-right: 3px;
+            font-family: "mono";
+            background-color: rgb(255, 0, 0);
+            border: 2px solid black;
+            text-decoration: none;
+            color: white;
+            align-items: center;
+        }
     }
-}
-.redes {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 70px;
-     img {
-        height: 25px;
+
+    .redes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 70px;
+
+        img {
+            height: 25px;
+        }
     }
-}
 
 }
 
@@ -270,6 +316,7 @@ border-bottom: 1px solid rgb(82, 81, 81);
 @media screen and (max-width: 980px) {
     .wishlist__tuwishlist-input {
         margin: 0px 0px;
+
         .wishlist__tuwishlist-col {
             .orden {
                 button {
@@ -278,51 +325,89 @@ border-bottom: 1px solid rgb(82, 81, 81);
             }
         }
     }
+
     .wishlist__tuwishlist-row-product {
         margin: 0px 0px;
+
         .wishlist__tuwishlist-col-product {
             height: 28vh;
-            .wishlist_product{
-            img {
-                height: 80%;
-                
+
+            .wishlist_product {
+                img {
+                    height: 80%;
+
+                }
             }
-        }
-        .wishlist_info{
-            height: 120%;
-            width: 60vw;
-            padding-left: 3vw;
-        }
+
+            .wishlist_info {
+                height: 120%;
+                width: 60vw;
+                padding-left: 3vw;
+            }
         }
     }
 }
 
 @media screen and (max-width: 581px) {
+    .wishlist__tuwishlist-input {
+        .wishlist__tuwishlist-col {
+            flex-direction: column;
+
+            input {
+                width: 100%;
+            }
+
+            .dropdown {
+                margin: 0px 10px;
+                padding: 0;
+
+                .btn {
+
+                    width: 100vw;
+                }
+            }
+
+        }
+    }
+
     .wishlist__tuwishlist-row-product {
         .wishlist__tuwishlist-col-product {
             flex-direction: column;
             height: 80vh;
+
             .wishlist_product {
                 width: 100%;
                 display: flex;
                 justify-content: center;
+
                 img {
                     width: 80vw;
                     height: 40vh;
                 }
             }
+
             .wishlist_info {
                 text-align: center;
+
                 h3 {
                     padding-top: 10px;
                 }
+
                 p {
                     display: none;
                 }
             }
+
             .wishlist_price {
                 width: 100%;
             }
         }
     }
+
+    .footerwishlist {
+        .redes {
+            flex-direction: column;
+        }
+    }
+
 }
