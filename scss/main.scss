@@ -343,36 +343,20 @@ align-items: center;
     height: auto;
 }
 
-.supportflex {
-    justify-content: center;
+.container-fluid {
+    padding: 0;
+    .row {
+        .contact_left {
+            height: 120vh;
+        }
+        .contact_right {
+            .right-row1{
+                display: none;
+            }
+        }
+
+    }
 }
-
-    .supporttext .supporttext__effecttyping {
-        text-align: center;
-        font-size: 4vw;
-    }
-
-    .supporttext .supporttext2 {
-        text-align: center;
-        font-size: 6vw;
-        margin-bottom: 0;
-    }
-
-    .supporttext__contact .contactform {
-        width: 90vw;
-    }
-
-    .contactustext h2 {
-        text-align: center;
-    }
-
-    .contactusjob .col {
-        height: 34vh;
-    }
-
-    .contactusjob .contactlinks{
-        width: 70vw;
-    }
 
     .contactfooter {
         border: 2px solid black;
