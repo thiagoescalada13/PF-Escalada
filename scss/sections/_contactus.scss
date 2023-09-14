@@ -8,7 +8,7 @@
 
 .contact_left {
     background-color: rgb(0, 0, 0);
-    height: 150vh;
+    height: 120vh;
    
 h2 {
     color: rgb(0, 0, 0);
@@ -68,12 +68,8 @@ form {
     height: 40rem;
     display: flex;
     flex-direction: column;
-    height: 150vh;
-    .right-row1 {
-        img {
-        
-        }
-    }
+    height: 120vh;
+    
 .right-info {
     
     display: flex;
@@ -86,8 +82,8 @@ form {
         font-size: 4rem;
         font-family: 'korn';
         text-decoration: none;
-        color: rgb(37, 68, 65);
-        text-shadow: 1px 1px 3px rgb(255, 255, 255);
+        color: rgb(124, 4, 4);
+        text-shadow: 1px 1px 3px rgb(250, 121, 0);
       }
         img {
             height: 30%;
@@ -95,7 +91,7 @@ form {
         p {
             font-family: 'Times New Roman', Times, serif;
             text-decoration: underline;
-            color: white;
+            color: rgb(34, 110, 112);
             font-size: 14px;
         }
     }
