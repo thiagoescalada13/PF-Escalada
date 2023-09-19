@@ -513,14 +513,14 @@ align-items: center;
 
    .productostees .columna1 .productbuy img {
     height: 80%;
-    width: 100%;
+    
    }
     
 
     .productostees .columna1 {
         gap: 15px;
         height: 45vh;
-   
+   padding-top: 40px;
     }
 
     .productostees .columna1row {
@@ -547,12 +547,13 @@ height: 100vh;
     }
 
     .productostees .columna2 .productbuy img {
-        width: 17.5vw;
+        height: 80%;
     }
 
     .productostees .columna2 {
        height: 40vh;
         gap: 15px;
+        padding-bottom: 20px;
     }
 
     .productostees {

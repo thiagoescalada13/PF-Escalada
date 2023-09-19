@@ -906,7 +906,7 @@ aside .textpromo img {
 .contactmain {
   background-image: url(https://64.media.tumblr.com/54c78dff3e1600c49b112ee3e04bf768/tumblr_phlpe350en1v0jfsto5_1280.jpg);
   background-size: cover;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(231, 15, 15);
   height: 110vh;
   border-top: 1px solid white;
 }
@@ -1325,7 +1325,6 @@ aside .textpromo img {
 .productostees .columna1 .productbuy img {
   border: 2px solid rgb(161, 51, 51);
   height: 33vh;
-  width: 100%;
 }
 .productostees .columna1 .productbuy p {
   text-decoration: underline;
@@ -2908,11 +2907,11 @@ aside .textpromo img {
   }
   .productostees .columna1 .productbuy img {
     height: 80%;
-    width: 100%;
   }
   .productostees .columna1 {
     gap: 15px;
     height: 45vh;
+    padding-top: 40px;
   }
   .productostees .columna1row {
     height: 50vh;
@@ -2932,11 +2931,12 @@ aside .textpromo img {
     height: 100%;
   }
   .productostees .columna2 .productbuy img {
-    width: 17.5vw;
+    height: 80%;
   }
   .productostees .columna2 {
     height: 40vh;
     gap: 15px;
+    padding-bottom: 20px;
   }
   .productostees {
     padding: 20px;
