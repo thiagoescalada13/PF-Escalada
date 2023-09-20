@@ -30,22 +30,10 @@
 
         img {
             overflow: hidden;
-            width: 33.3%;          
+                     
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 nav .nav-link {
     list-style: none;
     background-color: rgb(255, 255, 255);
@@ -111,13 +99,10 @@ nav .nav-link {
         background-color: #000000;
         text-align: center;
         overflow: hidden;
-         p {
-            font-family: "mono";
-            width: 15%;
-            margin-top: 10px;
-        
-            color: rgb(61, 87, 145);
-        }
+         img {
+            width:auto;
+            overflow: hidden;
+         }
     }
 }
 
