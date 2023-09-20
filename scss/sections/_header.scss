@@ -15,8 +15,7 @@
         height: 90%;
 
         .santo {
-            width: 220px;
-            height: 160px;
+            height: 150px;
         }
 
         img {
@@ -30,8 +29,8 @@
         display: flex;
 
         img {
-            height: 60%;
-            width: 33.3%;
+            overflow: hidden;
+            width: 33.3%;          
         }
     }
 }
@@ -95,7 +94,8 @@ nav .nav-link {
         background-size: 10%;
         display: flex;
         justify-content: center;
-        gap: 4px;
+        gap: 0px;
+        width: 16vw;
          p {
             margin-top: 15px;
             text-align: center;
@@ -108,11 +108,9 @@ nav .nav-link {
     .medio {
         display: flex;
         height: 70px;
-        background-color: #ff0000;
+        background-color: #000000;
         text-align: center;
-         img {
-            width: 50%;
-        }
+        overflow: hidden;
          p {
             font-family: "mono";
             width: 15%;

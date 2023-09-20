@@ -26,8 +26,7 @@
   height: 90%;
 }
 .headermain .headersection .santo {
-  width: 220px;
-  height: 160px;
+  height: 150px;
 }
 .headermain .headersection img {
   width: 180px;
@@ -38,7 +37,7 @@
   display: flex;
 }
 .headermain .separadores img {
-  height: 60%;
+  overflow: hidden;
   width: 33.3%;
 }
 
@@ -91,7 +90,8 @@ nav .nav-link .nav-linkactive {
   background-size: 10%;
   display: flex;
   justify-content: center;
-  gap: 4px;
+  gap: 0px;
+  width: 16vw;
 }
 .separador .left p {
   margin-top: 15px;
@@ -104,11 +104,9 @@ nav .nav-link .nav-linkactive {
 .separador .medio {
   display: flex;
   height: 70px;
-  background-color: #ff0000;
+  background-color: #000000;
   text-align: center;
-}
-.separador .medio img {
-  width: 50%;
+  overflow: hidden;
 }
 .separador .medio p {
   font-family: "mono";
@@ -2512,7 +2510,6 @@ aside .textpromo img {
 }
 
 .cuatro {
-  border: px solid rgb(78, 76, 76);
   grid-area: cuatro;
   display: flex;
   flex-direction: column;
@@ -2532,7 +2529,6 @@ aside .textpromo img {
 
 .cuatro .parrafo img {
   background-color: #000000;
-  width: 30%;
   height: 40%;
 }
 
@@ -2568,13 +2564,11 @@ aside .textpromo img {
 
 .cuatro .parrafo2 img {
   background-color: #000000;
-  width: 30%;
   height: 40%;
 }
 
 .cuatro .parrafo2 .partnersbtn {
   background-color: none;
-  width: 15%;
   height: 40px;
 }
 
@@ -2595,7 +2589,6 @@ aside .textpromo img {
 }
 
 .cuatro .parrafo2 img {
-  width: 30%;
   height: 20%;
 }
 
@@ -2623,7 +2616,6 @@ aside .textpromo img {
 
 .cuatro .parrafo3 img {
   border: 2px solid black;
-  width: 30%;
   height: 20%;
 }
 
@@ -2645,7 +2637,6 @@ aside .textpromo img {
 }
 
 .cuatro .parrafo3 img {
-  width: 30%;
   height: 40%;
 }
 
@@ -2675,14 +2666,12 @@ aside .textpromo img {
 .cuatro .parrafo3 .pseparador {
   background-color: none;
   height: 50px;
-  width: 100%;
 }
 
 .cuatro .parrafo3 .gifprueba {
   background-color: rgb(0, 0, 0);
   border: 2px solid white;
   padding: 10px;
-  width: 30%;
   height: 70%;
 }
 
@@ -2698,6 +2687,7 @@ aside .textpromo img {
   grid-area: cinco;
   display: flex;
   flex-direction: column;
+  padding: 10px;
 }
 
 .cinco img {
@@ -2719,7 +2709,7 @@ aside .textpromo img {
   border: 2px solid rgb(0, 0, 0);
   padding: 5px;
   margin-top: 1px;
-  width: 90%;
+  height: 30%;
 }
 
 .cinco .mapa {
@@ -2745,14 +2735,13 @@ aside .textpromo img {
   font-family: "evanescence";
   border: 2px solid rgb(0, 0, 0);
   color: red;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .cinco iframe {
   background-color: #000000;
   padding: 5px;
   border: 2px solid rgb(255, 0, 0);
-  width: 80%;
   height: 160px;
 }
 
